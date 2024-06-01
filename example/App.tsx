@@ -1,11 +1,19 @@
-import { StyleSheet, Text, View } from 'react-native';
+import { Pressable, StyleSheet, Text, View } from 'react-native';
 
 import { ExpoAvRoutePickerView } from 'expo-av-route-picker-view';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Here is the route picker!</Text>
+      <Pressable onPress={() => {}}>
+        {({ pressed, focused }) => {
+          return (
+            <View style={{ opacity: focused || pressed ? 0.6 : 1.0 }}>
+              <Text>Here is the route picker!</Text>
+            </View>
+          );
+        }}
+      </Pressable>
       <ExpoAvRoutePickerView
         style={styles.picker}
         tintColor="#000000"

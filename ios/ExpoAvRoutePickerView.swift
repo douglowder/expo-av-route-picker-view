@@ -10,7 +10,11 @@ class ExpoAvRoutePickerView: ExpoView {
     avRoutePickerView.tintColor = UIColor.white
     avRoutePickerView.activeTintColor = UIColor.cyan
     avRoutePickerView.backgroundColor = UIColor.clear
+    avRoutePickerView.routePickerButtonStyle = .plain
+    #if os(iOS)
+    avRoutePickerView.isRoutePickerButtonBordered = false
     avRoutePickerView.showsLargeContentViewer = true
+    #endif
     addSubview(avRoutePickerView)
     avRoutePickerView.autoresizingMask = [
       .flexibleWidth,
