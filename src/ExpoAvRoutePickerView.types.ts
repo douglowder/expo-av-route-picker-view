@@ -1,7 +1,7 @@
-export type ChangeEventPayload = {
-  value: string;
-};
+import { ColorValue, ViewProps } from 'react-native';
 
-export type ExpoAvRoutePickerViewProps = {
-  name: string;
+export type ExpoAvRoutePickerViewProps = ViewProps & {
+  tintColor?: ColorValue;
+  activeTintColor?: ColorValue;
+  prioritizesVideoDevices?: boolean;
 };
