@@ -11,6 +11,9 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+    "plugins": [
+      "@react-native-tvos/config-tv"
+    ],
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "expo.modules.avroutepickerview.example"
