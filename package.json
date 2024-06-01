@@ -1,6 +1,6 @@
 {
   "name": "@douglowder/expo-av-route-picker-view",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "description": "React Native wrapper for the iOS AVRoutePickerView (selector for AirPlay devices)",
   "main": "build/index.js",
   "types": "build/index.d.ts",
@@ -28,7 +28,9 @@
   "author": "Douglas Lowder <douglowder@mac.com> (https://github.com/douglowder)",
   "license": "MIT",
   "homepage": "https://github.com/douglowder/expo-av-route-picker-view#readme",
-  "dependencies": {},
+  "dependencies": {
+    "react-native": "npm:react-native-tvos@0.74.1-0"
+  },
   "devDependencies": {
     "@types/react": "^18.0.25",
     "expo-module-scripts": "^3.5.2",
@@ -36,7 +38,6 @@
   },
   "peerDependencies": {
     "expo": "*",
-    "react": "*",
-    "react-native": "*"
+    "react": "*"
   }
 }
