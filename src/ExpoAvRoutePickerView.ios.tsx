@@ -16,7 +16,6 @@ export default function ExpoAvRoutePickerView(
       style={[
         props.style,
         {
-          flex: 1,
           justifyContent: 'center',
           alignItems: 'center',
         },
