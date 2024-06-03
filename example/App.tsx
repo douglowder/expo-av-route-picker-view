@@ -18,6 +18,7 @@ export default function App() {
         style={styles.picker}
         tintColor="#000000"
         activeTintColor="#0000FF"
+        prioritizesVideoDevices
       />
     </View>
   );
