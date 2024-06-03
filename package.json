@@ -1,6 +1,6 @@
 {
   "name": "@douglowder/expo-av-route-picker-view",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "React Native wrapper for the iOS AVRoutePickerView (selector for AirPlay devices)",
   "main": "build/index.js",
   "types": "build/index.d.ts",
