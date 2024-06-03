@@ -3,8 +3,8 @@
   "compilerOptions": {
     "strict": true,
     "paths": {
-      "expo-av-route-picker-view": ["../src/index"],
-      "expo-av-route-picker-view/*": ["../src/*"]
+      "@douglowder/expo-av-route-picker-view": ["../src/index"],
+      "@douglowder/expo-av-route-picker-view/*": ["../src/*"]
     }
   }
 }
