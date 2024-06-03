@@ -4,6 +4,8 @@ iOS/tvOS only React Native wrapper for the AVRoutePickerView (selector for AirPl
 
 # Example
 
+(See the [working example](./example/) for code that wraps this view safely for Android and other unsupported platforms.)
+
 ```tsx
 import { Pressable, StyleSheet, Text, View } from 'react-native';
 
