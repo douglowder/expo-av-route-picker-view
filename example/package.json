@@ -9,9 +9,9 @@
     "web": "expo start --web"
   },
   "dependencies": {
-    "expo": "~51.0.9",
+    "expo": "~51.0.14",
     "react": "18.2.0",
-    "react-native": "npm:react-native-tvos@0.74.1-0"
+    "react-native": "npm:react-native-tvos@0.74.2-0"
   },
   "devDependencies": {
     "@react-native-tvos/config-tv": "^0.0.10",

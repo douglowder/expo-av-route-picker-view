@@ -28,13 +28,11 @@
   "author": "Douglas Lowder <douglowder@mac.com> (https://github.com/douglowder)",
   "license": "MIT",
   "homepage": "https://github.com/douglowder/expo-av-route-picker-view#readme",
-  "dependencies": {
-    "react-native": "npm:react-native-tvos@0.74.1-0"
-  },
   "devDependencies": {
-    "@types/react": "^18.0.25",
+    "@types/react": "^18.2.79",
+    "expo-modules-core": "~1.12.15",
     "expo-module-scripts": "^3.5.2",
-    "expo-modules-core": "^1.12.12"
+    "react-native": "npm:react-native-tvos@~0.74.2-0"
   },
   "peerDependencies": {
     "expo": "*",
