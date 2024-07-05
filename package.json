@@ -32,7 +32,7 @@
     "@types/react": "^18.2.79",
     "expo-modules-core": "~1.12.15",
     "expo-module-scripts": "^3.5.2",
-    "react-native": "npm:react-native-tvos@~0.74.2-0"
+    "react-native": "npm:react-native-tvos@~0.74.3-0"
   },
   "peerDependencies": {
     "expo": "*",
