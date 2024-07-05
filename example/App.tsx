@@ -1,6 +1,6 @@
 import { Pressable, StyleSheet, Text, View } from 'react-native';
 
-import RoutePicker from './RoutePicker';
+import { ExpoAvRoutePickerView } from '@douglowder/expo-av-route-picker-view';
 
 export default function App() {
   return (
@@ -14,7 +14,7 @@ export default function App() {
           );
         }}
       </Pressable>
-      <RoutePicker
+      <ExpoAvRoutePickerView
         style={styles.picker}
         tintColor="#000000"
         activeTintColor="#0000FF"
