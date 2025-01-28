@@ -10,7 +10,7 @@ iOS/tvOS only React Native wrapper for the AVRoutePickerView (selector for AirPl
 ```tsx
 import { Pressable, StyleSheet, Text, View } from 'react-native';
 
-import { ExpoAvRoutePickerView } from 'expo-av-route-picker-view';
+import { ExpoAvRoutePickerView } from '@douglowder/expo-av-route-picker-view';
 
 export default function App() {
   return (
